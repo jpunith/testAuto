@@ -1,0 +1,21 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+
+    <div class="panel panel-info" ng-repeat="page in PC.pages">
+      <div ng-click="PC.clickOnPanelHeading(page)" class="panel-heading">
+        {{page.name}}
+      </div>
+      <div  ng-init="page.show = !!page.show;" ng-show="!!page.show" class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item" ng-repeat="scenario in page.scenarios"
+              dnd-draggable="scenario"
+              dnd-effect-allowed="copy"
+              dnd-copied="scenario.id = scenario.id"
+            >
+            {{scenario.name}}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

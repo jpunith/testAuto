@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active" ng-repeat="panel in TP.panelList"
+          dnd-draggable="panel"
+          dnd-effect-allowed="copy"
+          dnd-copied="panel.id = panel.id"
+        >
+        <a href="#">{{panel.name}}</a>
+      </li>
+    </ul>
+  </div>
+</div>

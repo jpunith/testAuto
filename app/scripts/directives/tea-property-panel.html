@@ -1,0 +1,24 @@
+<!--<div class="panel panel-default">-->
+  <!--<div class="panel-body">-->
+    <!---->
+  <!--</div>-->
+<!--</div>-->
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th colspan="2">Property Palet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="(key,value) in PRC.propertyDetails.property">
+      <td>{{key}}</td>
+      <td><input type="text" ng-model="value"/></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <button class="btn btn-info">Apply</button>
+        <button class="btn btn-info">Revert</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

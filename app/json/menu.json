@@ -1,0 +1,31 @@
+[
+  {
+    "name":"File",
+    "subMenu":[
+      {
+        "name":"Open"
+      },
+      {
+        "name":"Close"
+      },
+      {
+        "name":"Delete"
+      }
+    ]
+  },
+  {
+    "name":"All",
+    "subMenu":[
+      {
+        "name":"Open"
+      },
+      {
+        "name":"Close"
+      },
+      {
+        "name":"Delete"
+      }
+    ]
+  }
+
+]

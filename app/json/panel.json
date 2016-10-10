@@ -1,0 +1,107 @@
+[
+  {
+    "name":"Scenario1",
+    "id":"s1",
+    "property":{
+      "sequence": "",
+      "clickable": ""
+    },
+    "testCases":[
+      {
+        "name":"Test case1",
+        "id":"T1",
+        "property":{
+          "sequence": "",
+          "clickable": ""
+        },
+        "Steps":[
+          {
+            "name":"step1",
+            "property":{
+              "sequence": "",
+              "clickable": ""
+            }
+          },
+          {
+            "name":"step2",
+            "property":{
+              "sequence": "",
+              "clickable": ""
+            }
+          }
+        ]
+      },
+      {
+        "name":"Test case2",
+        "id":"T2",
+        "Steps":[
+          {
+            "name":"step1",
+            "property":{
+              "sequence": "",
+              "clickable": ""
+            }
+          },
+          {
+            "name":"step2",
+            "property":{
+              "sequence": "",
+              "clickable": ""
+            }
+          }
+        ]
+      },
+      {
+        "name":"Test case3",
+        "id":"T3",
+        "Steps":[
+          {
+            "name":"step1",
+            "property":{
+              "sequence": "",
+              "clickable": ""
+            }
+          },
+          {
+            "name":"step2",
+            "property":{
+              "sequence": "",
+              "clickable": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name":"Test case1",
+    "id":"T1",
+    "property":{
+      "sequence": "",
+      "clickable": ""
+    },
+    "Steps":[
+      {
+        "name":"step1",
+        "property":{
+          "sequence": "",
+          "clickable": ""
+        }
+      },
+      {
+        "name":"step2",
+        "property":{
+          "sequence": "",
+          "clickable": ""
+        }
+      }
+    ]
+  },
+  {
+    "name":"step1",
+    "property":{
+      "sequence": "",
+      "clickable": ""
+    }
+  }
+]

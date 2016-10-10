@@ -1,0 +1,46 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <ul ng-show="VC.showSenarioList" class="list-group" dnd-list="VC.viewDetail.viewList" style="min-height: 300px;">
+      <li class="list-group-item" ng-repeat="senario in VC.viewDetail.viewList"
+          ng-click="VC.clickOnElement(senario.property)"
+          ng-dblclick="VC.clickOnSelectSenario(senario)"
+        >
+        {{senario.name}}
+      </li>
+    </ul>
+    <div class="panel panel-default" ng-show="VC.showTestcaseList">
+      <div class="panel-heading">
+        <h3 ng-show="!VC.showStepList">{{VC.selectedSenario.name}}</h3>
+        <h5 ng-show="VC.showStepList">{{VC.selectedSenario.name}}</h5>
+        <h3 ng-show="VC.showStepList">{{VC.selectedTestCase.name}}</h3>
+        <div class="box-header-btns pull-right">
+          <a title="Pre Senario" ng-click="VC.clickOnRemoveSenario()"><i class="glyphicon glyphicon-arrow-left"></i></a>
+          <a title="Save Senario" ng-click="VC.clickOnRemoveSenario()"><i class="glyphicon glyphicon-floppy-save"></i></a>
+          <a title="Remove Senario" ng-click="VC.clickOnRemoveSenario()"><i class="glyphicon glyphicon-remove"></i></a>
+        </div>
+      </div>
+      <div class="panel-body">
+        <ul class="list-group" ng-show="!VC.showStepList" dnd-list="VC.selectedSenario.testCases" style="min-height: 200px;">
+          <li class="list-group-item" ng-repeat="testCase in VC.selectedSenario.testCases"
+              ng-click="VC.clickOnElement(testCase.property)"
+              ng-dblclick="VC.clickOnSelectTestCase(testCase)"
+            >
+            {{testCase.name}}
+          </li>
+        </ul>
+        <ul class="list-group" ng-show="VC.showStepList" dnd-list="VC.selectedTestCase.Steps" style="min-height: 200px;">
+          <li class="list-group-item" ng-repeat="step in VC.selectedTestCase.Steps"
+              ng-click="VC.clickOnElement(step.property)"
+            >
+            {{step.name}}
+          </li>
+        </ul>
+      </div>
+      <div class="panel-footer">
+        <div class="box-footer-btns pull-right">
+          <a title="Post Senario" ng-click="VC.clickOnPostSenario()"><i class="glyphicon glyphicon-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
