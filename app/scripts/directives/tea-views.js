@@ -51,6 +51,10 @@ angular.module('testAutomationApp')
 
         }
 
+        VC.clickOnRemoveFormList = function(list,index){
+          list.splice(index,1);
+        }
+
       },
       controllerAs: 'VC'
     };
