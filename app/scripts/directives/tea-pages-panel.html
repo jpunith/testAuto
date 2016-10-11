@@ -9,6 +9,7 @@
         <ul class="list-group">
           <li class="list-group-item" ng-repeat="scenario in page.scenarios"
               dnd-draggable="scenario"
+              dnd-type="scenario.type"
               dnd-effect-allowed="copy"
               dnd-copied="scenario.id = scenario.id"
             >

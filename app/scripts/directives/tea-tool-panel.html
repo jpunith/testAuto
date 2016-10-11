@@ -3,6 +3,7 @@
     <ul class="nav nav-pills">
       <li role="presentation" class="active" ng-repeat="panel in TP.panelList"
           dnd-draggable="panel"
+          dnd-type="panel.type"
           dnd-effect-allowed="copy"
           dnd-copied="panel.id = panel.id"
         >

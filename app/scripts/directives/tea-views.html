@@ -1,7 +1,13 @@
 <div class="panel panel-default">
   <div class="panel-body">
-    <ul ng-show="VC.showSenarioList" class="list-group" dnd-list="VC.viewDetail.viewList" style="min-height: 300px;">
+    <ul ng-show="VC.showSenarioList" class="list-group"
+        dnd-list="VC.viewDetail.viewList"
+        dnd-allowed-types="VC.viewDetail.allowedTypes"
+        dnd-dragover="VC.dragoverCallback(event, index, external, type)"
+        style="min-height: 300px;"
+      >
       <li class="list-group-item list-group-item-ex-pad" ng-repeat="senario in VC.viewDetail.viewList"
+          dnd-type="senario.type"
           ng-click="VC.clickOnElement(senario.property)"
           ng-dblclick="VC.clickOnSelectSenario(senario)"
         >
@@ -28,7 +34,11 @@
         </div>
       </div>
       <div class="panel-body">
-        <ul class="list-group" ng-show="!VC.showStepList" dnd-list="VC.selectedSenario.testCases" style="min-height: 200px;">
+        <ul class="list-group" ng-show="!VC.showStepList"
+            dnd-list="VC.selectedSenario.testCases"
+            dnd-allowed-types="['test']"
+            style="min-height: 200px;"
+          >
           <li class="list-group-item list-group-item-ex-pad" ng-repeat="testCase in VC.selectedSenario.testCases"
               ng-click="VC.clickOnElement(testCase.property)"
               ng-dblclick="VC.clickOnSelectTestCase(testCase)"
@@ -46,7 +56,11 @@
               </div>
           </li>
         </ul>
-        <ul class="list-group" ng-show="VC.showStepList" dnd-list="VC.selectedTestCase.Steps" style="min-height: 200px;">
+        <ul class="list-group" ng-show="VC.showStepList"
+            dnd-list="VC.selectedTestCase.Steps"
+            dnd-allowed-types="['step']"
+            style="min-height: 200px;"
+          >
           <li class="list-group-item list-group-item list-group-item-ex-pad" ng-repeat="step in VC.selectedTestCase.Steps"
               ng-click="VC.clickOnElement(step.property)"
             >

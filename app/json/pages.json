@@ -5,6 +5,7 @@
     "scenarios": [
       {
         "name":"Scenario1",
+        "type":"scenario",
         "id":"s1",
         "property":{
           "sequence": "",
@@ -13,6 +14,7 @@
         "testCases":[
           {
             "name":"Test case1",
+            "type":"test",
             "id":"T1",
             "property":{
               "sequence": "",
@@ -21,6 +23,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -28,6 +31,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -37,6 +41,7 @@
           },
           {
             "name":"Test case2",
+            "type":"test",
             "id":"T2",
             "property":{
               "sequence": "",
@@ -45,6 +50,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -52,6 +58,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -61,6 +68,7 @@
           },
           {
             "name":"Test case3",
+            "type":"test",
             "id":"T3",
             "property":{
               "sequence": "",
@@ -69,6 +77,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -76,6 +85,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -87,10 +97,12 @@
       },
       {
         "name":"Scenario2",
+        "type":"scenario",
         "id":"s2",
         "testCases":[
           {
             "name":"Test case1",
+            "type":"test",
             "id":"T1",
             "property":{
               "sequence": "",
@@ -99,6 +111,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -106,6 +119,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -115,6 +129,7 @@
           },
           {
             "name":"Test case2",
+            "type":"test",
             "id":"T2",
             "property":{
               "sequence": "",
@@ -123,6 +138,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -130,6 +146,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -139,6 +156,7 @@
           },
           {
             "name":"Test case3",
+            "type":"test",
             "id":"T3",
             "property":{
               "sequence": "",
@@ -147,6 +165,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -154,6 +173,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -165,6 +185,7 @@
       },
       {
         "name":"Scenario3",
+        "type":"scenario",
         "id":"s3",
         "property":{
           "sequence": "",
@@ -173,10 +194,12 @@
         "testCases":[
           {
             "name":"Test case1",
+            "type":"test",
             "id":"T1",
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -184,6 +207,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -194,6 +218,7 @@
           {
             "name":"Test case2",
             "id":"T2",
+            "type":"test",
             "property":{
               "sequence": "",
               "clickable": ""
@@ -201,6 +226,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -208,6 +234,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -218,6 +245,7 @@
           {
             "name":"Test case3",
             "id":"T3",
+            "type":"test",
             "property":{
               "sequence": "",
               "clickable": ""
@@ -225,6 +253,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -232,6 +261,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -249,6 +279,7 @@
     "scenarios": [
       {
         "name":"Scenario1",
+        "type":"scenario",
         "id":"s1",
         "property":{
           "sequence": "",
@@ -257,6 +288,7 @@
         "testCases":[
           {
             "name":"Test case1",
+            "type":"test",
             "id":"T1",
             "property":{
               "sequence": "",
@@ -265,6 +297,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -272,6 +305,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -281,6 +315,7 @@
           },
           {
             "name":"Test case2",
+            "type":"test",
             "id":"T2",
             "property":{
               "sequence": "",
@@ -289,6 +324,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -296,6 +332,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -305,6 +342,7 @@
           },
           {
             "name":"Test case3",
+            "type":"test",
             "id":"T3",
             "property":{
               "sequence": "",
@@ -313,6 +351,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -320,6 +359,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -331,6 +371,7 @@
       },
       {
         "name":"Scenario2",
+        "type":"scenario",
         "id":"s2",
         "property":{
           "sequence": "",
@@ -339,6 +380,7 @@
         "testCases":[
           {
             "name":"Test case1",
+            "type":"test",
             "id":"T1",
             "property":{
               "sequence": "",
@@ -347,6 +389,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -354,6 +397,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -363,6 +407,7 @@
           },
           {
             "name":"Test case2",
+            "type":"test",
             "id":"T2",
             "property":{
               "sequence": "",
@@ -371,6 +416,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -378,6 +424,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -387,6 +434,7 @@
           },
           {
             "name":"Test case3",
+            "type":"test",
             "id":"T3",
             "property":{
               "sequence": "",
@@ -395,6 +443,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -402,6 +451,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -413,6 +463,7 @@
       },
       {
         "name":"Scenario3",
+        "type":"scenario",
         "id":"s3",
         "property":{
           "sequence": "",
@@ -421,6 +472,7 @@
         "testCases":[
           {
             "name":"Test case1",
+            "type":"test",
             "id":"T1",
             "property":{
               "sequence": "",
@@ -429,6 +481,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -436,6 +489,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -445,6 +499,7 @@
           },
           {
             "name":"Test case2",
+            "type":"test",
             "id":"T2",
             "property":{
               "sequence": "",
@@ -453,6 +508,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -460,6 +516,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -469,6 +526,7 @@
           },
           {
             "name":"Test case3",
+            "type":"test",
             "id":"T3",
             "property":{
               "sequence": "",
@@ -477,6 +535,7 @@
             "Steps":[
               {
                 "name":"step1",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""
@@ -484,6 +543,7 @@
               },
               {
                 "name":"step2",
+                "type":"step",
                 "property":{
                   "sequence": "",
                   "clickable": ""

@@ -1,6 +1,7 @@
 [
   {
     "name":"Scenario1",
+    "type":"scenario",
     "id":"s1",
     "property":{
       "sequence": "",
@@ -9,6 +10,7 @@
     "testCases":[
       {
         "name":"Test case1",
+        "type":"test",
         "id":"T1",
         "property":{
           "sequence": "",
@@ -17,6 +19,7 @@
         "Steps":[
           {
             "name":"step1",
+            "type":"step",
             "property":{
               "sequence": "",
               "clickable": ""
@@ -24,6 +27,7 @@
           },
           {
             "name":"step2",
+            "type":"step",
             "property":{
               "sequence": "",
               "clickable": ""
@@ -34,9 +38,11 @@
       {
         "name":"Test case2",
         "id":"T2",
+        "type":"test",
         "Steps":[
           {
             "name":"step1",
+            "type":"step",
             "property":{
               "sequence": "",
               "clickable": ""
@@ -44,6 +50,7 @@
           },
           {
             "name":"step2",
+            "type":"step",
             "property":{
               "sequence": "",
               "clickable": ""
@@ -53,10 +60,12 @@
       },
       {
         "name":"Test case3",
+        "type":"test",
         "id":"T3",
         "Steps":[
           {
             "name":"step1",
+            "type":"step",
             "property":{
               "sequence": "",
               "clickable": ""
@@ -64,6 +73,7 @@
           },
           {
             "name":"step2",
+            "type":"step",
             "property":{
               "sequence": "",
               "clickable": ""
@@ -76,6 +86,7 @@
   {
     "name":"Test case1",
     "id":"T1",
+    "type":"test",
     "property":{
       "sequence": "",
       "clickable": ""
@@ -83,6 +94,7 @@
     "Steps":[
       {
         "name":"step1",
+        "type":"step",
         "property":{
           "sequence": "",
           "clickable": ""
@@ -90,6 +102,7 @@
       },
       {
         "name":"step2",
+        "type":"step",
         "property":{
           "sequence": "",
           "clickable": ""
@@ -99,6 +112,7 @@
   },
   {
     "name":"step1",
+    "type":"step",
     "property":{
       "sequence": "",
       "clickable": ""

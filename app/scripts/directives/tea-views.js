@@ -21,7 +21,24 @@ angular.module('testAutomationApp')
         VC.showTestcaseList = false;
         VC.showStepList = false;
 
+
         VC.viewDetail = viewServicee.getViewDetails();
+        VC.viewDetail.allowedTypes =  ["scenario"];
+
+        console.log(VC.viewDetail);
+
+        VC.dragoverCallback = function(event, index, external, type){
+          console.log("event");
+          console.log(event);
+          console.log("index");
+          console.log(index);
+          console.log("external");
+          console.log(external);
+          console.log("type");
+          console.log(type);
+          return true;
+        }
+
 
         VC.clickOnElement = function(property){
           propertyService.setProperty(property);
