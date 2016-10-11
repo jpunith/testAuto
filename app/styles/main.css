@@ -108,25 +108,17 @@ ul[dnd-list], ul[dnd-list] > li {
 }
 
 .li-header-btns{
-  top: 0px;
-  right: 15px;
+  top: 5px;
+  right: 5px;
   cursor: pointer;
   position: absolute;
 }
 
 .li-footer-btns{
   bottom: 0px;
-  right: 15px;
+  right: 5px;
   cursor: pointer;
   position: absolute;
-}
-
-.li-pull-left{
-  float: left !important;
-}
-
-.li-pull-right{
-  float: right !important;
 }
 
 .list-group-item-ex-pad{
@@ -139,4 +131,12 @@ ul[dnd-list], ul[dnd-list] > li {
   user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+}
+
+li.dndPlaceholder {
+  background-color: #F7F7F9;
+  min-height: 42px;
+  display: block;
+  position: relative;
+
 }
