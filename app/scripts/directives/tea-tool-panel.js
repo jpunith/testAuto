@@ -18,7 +18,10 @@ angular.module('testAutomationApp')
         var TP = this;
         panelService.getPanelList().then(function(result){
           TP.panelList = result;
-        })
+        });
+        TP.generateId = function(){
+          return new Date().getTime();
+        }
       },
       controllerAs:"TP"
     };

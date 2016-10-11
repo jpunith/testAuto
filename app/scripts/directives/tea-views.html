@@ -3,12 +3,12 @@
     <ul ng-show="VC.showSenarioList" class="list-group"
         dnd-list="VC.viewDetail.viewList"
         dnd-allowed-types="VC.viewDetail.allowedTypes"
-        dnd-dragover="VC.dragoverCallback(event, index, external, type)"
+        dnd-drop="VC.dropCallback(event, index, item, external, type)"
         style="min-height: 300px;"
       >
       <li class="list-group-item list-group-item-ex-pad" ng-repeat="senario in VC.viewDetail.viewList"
           dnd-type="senario.type"
-          ng-click="VC.clickOnElement(senario.property)"
+          ng-click="VC.clickOnElement(senario.id,senario.property)"
           ng-dblclick="VC.clickOnSelectSenario(senario)"
         >
         <div class="li-header-btns pull-right">
@@ -37,10 +37,11 @@
         <ul class="list-group" ng-show="!VC.showStepList"
             dnd-list="VC.selectedSenario.testCases"
             dnd-allowed-types="['test']"
+            dnd-drop="VC.dropCallback(event, index, item, external, type)"
             style="min-height: 200px;"
           >
           <li class="list-group-item list-group-item-ex-pad" ng-repeat="testCase in VC.selectedSenario.testCases"
-              ng-click="VC.clickOnElement(testCase.property)"
+              ng-click="VC.clickOnElement(testCase.id,testCase.property)"
               ng-dblclick="VC.clickOnSelectTestCase(testCase)"
             >
 
@@ -59,10 +60,11 @@
         <ul class="list-group" ng-show="VC.showStepList"
             dnd-list="VC.selectedTestCase.Steps"
             dnd-allowed-types="['step']"
+            dnd-drop="VC.dropCallback(event, index, item, external, type)"
             style="min-height: 200px;"
           >
           <li class="list-group-item list-group-item list-group-item-ex-pad" ng-repeat="step in VC.selectedTestCase.Steps"
-              ng-click="VC.clickOnElement(step.property)"
+              ng-click="VC.clickOnElement(step.id,step.property)"
             >
             <div class="li-header-btns pull-right">
               <a title="Pre Senario" ><i class="glyphicon glyphicon-arrow-left"></i></a>

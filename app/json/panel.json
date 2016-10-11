@@ -2,7 +2,6 @@
   {
     "name":"Scenario1",
     "type":"scenario",
-    "id":"s1",
     "property":{
       "sequence": "",
       "clickable": ""
@@ -11,7 +10,7 @@
       {
         "name":"Test case1",
         "type":"test",
-        "id":"T1",
+        "":"T1",
         "property":{
           "sequence": "",
           "clickable": ""
@@ -37,7 +36,6 @@
       },
       {
         "name":"Test case2",
-        "id":"T2",
         "type":"test",
         "Steps":[
           {
@@ -61,7 +59,7 @@
       {
         "name":"Test case3",
         "type":"test",
-        "id":"T3",
+        "":"T3",
         "Steps":[
           {
             "name":"step1",
@@ -85,7 +83,6 @@
   },
   {
     "name":"Test case1",
-    "id":"T1",
     "type":"test",
     "property":{
       "sequence": "",

@@ -27,35 +27,30 @@ angular.module('testAutomationApp')
 
         console.log(VC.viewDetail);
 
-        VC.dragoverCallback = function(event, index, external, type){
-          console.log("event");
-          console.log(event);
-          console.log("index");
-          console.log(index);
-          console.log("external");
-          console.log(external);
-          console.log("type");
-          console.log(type);
-          return true;
+
+        VC.dropCallback = function(event, index, item, external, type){
+          if(!item.id){
+            item.id = new Date().getTime();
+          }
+          return item;
         }
 
-
-        VC.clickOnElement = function(property){
-          propertyService.setProperty(property);
-        }
+        VC.clickOnElement = function(id,property){
+          propertyService.setProperty(id,property);
+        };
 
         VC.clickOnSelectSenario = function(Senario){
           VC.showSenarioList = false;
           VC.selectedSenario =  Senario;
           VC.showTestcaseList = true;
-        }
+        };
 
         VC.clickOnSelectTestCase = function(testCase){
           VC.showSenarioList = false;
           VC.selectedTestCase =  testCase;
           VC.showTestcaseList = true;
           VC.showStepList = true;
-        }
+        };
 
         VC.clickOnRemoveSenario = function(){
           if(!VC.showStepList){
@@ -65,12 +60,11 @@ angular.module('testAutomationApp')
           else{
             VC.showStepList = false;
           }
-
-        }
+        };
 
         VC.clickOnRemoveFormList = function(list,index){
           list.splice(index,1);
-        }
+        };
 
       },
       controllerAs: 'VC'

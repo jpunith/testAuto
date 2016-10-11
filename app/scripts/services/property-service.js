@@ -13,8 +13,9 @@ angular.module('testAutomationApp')
     var propertyDetails = {
       property:{}
     }
-    this.setProperty = function(property){
-      propertyDetails.property = property;
+    this.setProperty = function(id,property){
+      propertyDetails.property = angular.copy(property);
+      propertyDetails.property.id = id;
     }
     this.getPropertyDetails = function(){
       return propertyDetails;

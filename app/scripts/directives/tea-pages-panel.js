@@ -13,16 +13,16 @@ angular.module('testAutomationApp')
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
       },
-      controller: function pagePanelController(pagePanelService,viewServicee){
+      controller: function pagePanelController(pagePanelService){
         var PC = this;
         pagePanelService.getPagesDetails().then(function(result){
           PC.pages = result;
-        })
+        });
         PC.clickOnPanelHeading = function(page){
           page.show =! page.show;
          // console.log(page.scenarios)
          // viewServicee.setViewList(page.scenarios);
-        }
+        };
       },
       controllerAs:"PC"
     };
