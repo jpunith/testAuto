@@ -15,6 +15,6 @@ describe('Directive: teaToolPanel', function () {
   it('should make hidden element visible', inject(function ($compile) {
     element = angular.element('<tea-tool-panel></tea-tool-panel>');
     element = $compile(element)(scope);
-    expect(element.text()).toBe('this is the teaToolPanel directive');
+    expect(element.text()).toBe('');
   }));
 });

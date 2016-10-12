@@ -15,13 +15,23 @@ angular.module('testAutomationApp')
       },
       controller: function pagePanelController(pagePanelService){
         var PC = this;
+
+        var prePage;
         pagePanelService.getPagesDetails().then(function(result){
           PC.pages = result;
         });
+
         PC.clickOnPanelHeading = function(page){
-          page.show =! page.show;
-         // console.log(page.scenarios)
-         // viewServicee.setViewList(page.scenarios);
+          if(prePage && page.id == prePage.id){
+            page.show = !page.show;
+            return;
+          }
+          if(prePage){
+            prePage.show = false;
+          }
+          page.show = true;
+
+          prePage = page;
         };
       },
       controllerAs:"PC"
