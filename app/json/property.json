@@ -1,0 +1,98 @@
+[
+  {
+    "id": "prop1",
+    "propertyName": "Test name",
+    "propertyValue": "sampleName",
+    "propertyType": "text",
+    "validValues": [
+      "",
+      ""
+    ],
+    "readable": true,
+    "writable": true
+  },
+  {
+    "id": "prop2",
+    "propertyName": "Test Number",
+    "propertyValue": 872214,
+    "propertyType": "number",
+    "validValues": [
+      "",
+      ""
+    ],
+    "readable": true,
+    "writable": true
+  },
+  {
+    "id": "prop7",
+    "propertyName": "Test Numberli",
+    "propertyValue": 872214,
+    "propertyType": "number",
+    "validValues": [
+      872214,
+      872215
+    ],
+    "readable": true,
+    "writable": true
+  },
+  {
+    "id": "prop3",
+    "propertyName": "list",
+    "propertyValue": "list1",
+    "propertyType": "list",
+    "validValues": [
+      "list1",
+      "list2"
+    ],
+    "readable": true,
+    "writable": true
+  },
+  {
+    "id": "prop4",
+    "propertyName": "Test boolean",
+    "propertyValue": true,
+    "propertyType": "boolean",
+    "validValues": [
+      "",
+      ""
+    ],
+    "readable": true,
+    "writable": true
+  },
+  {
+    "id": "prop5",
+    "propertyName": "Test Teat Area",
+    "propertyValue": "sampleName",
+    "propertyType": "text:multiline",
+    "validValues": [
+      "",
+      ""
+    ],
+    "readable": true,
+    "writable": true
+  },
+  {
+    "id": "prop5",
+    "propertyName": "Test Not readable",
+    "propertyValue": "got it",
+    "propertyType": "text",
+    "validValues": [
+      "",
+      ""
+    ],
+    "readable": false,
+    "writable": true
+  },
+  {
+    "id": "prop5",
+    "propertyName": "Test Not writable",
+    "propertyValue": "got it",
+    "propertyType": "text",
+    "validValues": [
+      "",
+      ""
+    ],
+    "readable": true,
+    "writable": false
+  }
+]

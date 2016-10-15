@@ -12,7 +12,17 @@ angular.module('testAutomationApp')
     // AngularJS will instantiate a singleton by calling "new" on this function
     this.getPagesDetails = function(){
       return $http.get('json/pages.json').then(function(responce){
-        return responce.data;
+        var pages = {};
+        //page wise grouping
+         responce.data.scenarioDetails.forEach(function(sen){
+           if(pages[sen.categorySection]){
+             pages[sen.categorySection].push(sen);
+           }
+           else{
+             pages[sen.categorySection] = [sen];
+           }
+         });
+        return pages;
       })
     }
   });

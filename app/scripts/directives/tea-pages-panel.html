@@ -1,15 +1,15 @@
 <div class="panel panel-default">
   <div class="panel-body">
 
-    <div class="panel panel-info" ng-repeat="page in PC.pages">
-      <div ng-click="PC.clickOnPanelHeading(page)" class="panel-heading">
-        {{page.name}}
+    <div class="panel panel-info" ng-repeat="(page,scenarios) in PC.pages">
+      <div ng-click="PC.clickOnPanelHeading(scenarios)" class="panel-heading">
+        {{page}}
       </div>
-      <div  ng-init="page.show = !!page.show;" ng-show="!!page.show" class="panel-body">
+      <div  ng-init="scenarios.show = !!scenarios.show;" ng-show="!!scenarios.show" class="panel-body">
         <ul class="list-group">
-          <li class="list-group-item" ng-repeat="scenario in page.scenarios"
+          <li class="list-group-item" ng-repeat="scenario in scenarios"
               dnd-draggable="scenario"
-              dnd-type="scenario.type"
+              dnd-type="'scenario'"
               dnd-effect-allowed="copy"
             >
             {{scenario.name}}

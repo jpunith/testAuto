@@ -15,6 +15,7 @@ angular.module('testAutomationApp')
       },
       controller: function menuBarController(menuService){
         var MC = this;
+        MC.value = "done";
         menuService.getMenus().then(function(result){
           MC.menus = result;
         })

@@ -10,9 +10,16 @@
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="(key,value) in PRC.propertyDetails.property">
-      <td>{{key}}</td>
-      <td><input class="form-control" type="text" ng-model="value"/></td>
+    <tr ng-if="property.readable" ng-repeat="property in PRC.propertyDetails.properties">
+      <td>{{property.propertyName}}</td>
+      <!--<td><input class="form-control" type="text" ng-model="property.propertyValue"/></td>-->
+      <td><tea-input
+        tea-input-type="{{property.propertyType}}"
+        tea-input-list="property.validValues"
+        ng-model="property.propertyValue"
+        ng-disabled="!property.writable"
+        /></td>
+
     </tr>
     <tr>
       <td colspan="2">

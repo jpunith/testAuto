@@ -36,7 +36,12 @@ angular.module('testAutomationApp')
         }
 
         VC.clickOnElement = function(id,property){
-          propertyService.setProperty(id,property);
+          if(property){
+            propertyService.setProperty(property);
+          }
+          else{
+            propertyService.setPropertyDetailsByService(id);
+          }
         };
 
         VC.clickOnSelectSenario = function(Senario){

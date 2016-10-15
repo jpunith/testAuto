@@ -1,594 +1,177 @@
-[
-  {
-    "name":"Pages1",
-    "id":"p1",
-    "scenarios": [
-      {
-        "name":"Scenario1",
-        "type":"scenario",
-        "id":"s1",
-        "property":{
-          "sequence": "",
-          "clickable": ""
+{
+  "requestedDateTime": "08-Aug-2016 22:36.52",
+  "version": "version number",
+  "scenarioDetails": [
+    {
+      "id": "1",
+      "icon": "/img/icons/testScenario.png",
+      "altText": "Senario 1",
+      "name": "Test senario Name",
+      "description": "test senario description..",
+      "editableProperties": [
+        {
+          "id": "prop1",
+          "propertyName": "name",
+          "propertyValue": "sampleName",
+          "propertyType": "text",
+          "validValues": [
+            "",
+            ""
+          ],
+          "readable": true,
+          "writable": true
         },
-        "testCases":[
-          {
-            "name":"Test case1",
-            "type":"test",
-            "id":"T1",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case2",
-            "type":"test",
-            "id":"T2",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case3",
-            "type":"test",
-            "id":"T3",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name":"Scenario2",
-        "type":"scenario",
-        "id":"s2",
-        "testCases":[
-          {
-            "name":"Test case1",
-            "type":"test",
-            "id":"T1",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case2",
-            "type":"test",
-            "id":"T2",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case3",
-            "type":"test",
-            "id":"T3",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name":"Scenario3",
-        "type":"scenario",
-        "id":"s3",
-        "property":{
-          "sequence": "",
-          "clickable": ""
+        {
+          "id": "prop2",
+          "propertyName": "Number",
+          "propertyValue": 872214,
+          "propertyType": "number",
+          "validValues": [
+            "",
+            ""
+          ],
+          "readable": true,
+          "writable": true
         },
-        "testCases":[
-          {
-            "name":"Test case1",
-            "type":"test",
-            "id":"T1",
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case2",
-            "id":"T2",
-            "type":"test",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case3",
-            "id":"T3",
-            "type":"test",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name":"Pages2",
-    "id":"p2",
-    "scenarios": [
-      {
-        "name":"Scenario1",
-        "type":"scenario",
-        "id":"s1",
-        "property":{
-          "sequence": "",
-          "clickable": ""
+        {
+          "id": "prop7",
+          "propertyName": "Numberli",
+          "propertyValue": 872214,
+          "propertyType": "number",
+          "validValues": [
+            872214,
+            872215
+          ],
+          "readable": true,
+          "writable": true
         },
-        "testCases":[
-          {
-            "name":"Test case1",
-            "type":"test",
-            "id":"T1",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case2",
-            "type":"test",
-            "id":"T2",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case3",
-            "type":"test",
-            "id":"T3",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name":"Scenario2",
-        "type":"scenario",
-        "id":"s2",
-        "property":{
-          "sequence": "",
-          "clickable": ""
+        {
+          "id": "prop3",
+          "propertyName": "list",
+          "propertyValue": "list1",
+          "propertyType": "list",
+          "validValues": [
+            "list1",
+            "list2"
+          ],
+          "readable": true,
+          "writable": true
         },
-        "testCases":[
-          {
-            "name":"Test case1",
-            "type":"test",
-            "id":"T1",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case2",
-            "type":"test",
-            "id":"T2",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case3",
-            "type":"test",
-            "id":"T3",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name":"Scenario3",
-        "type":"scenario",
-        "id":"s3",
-        "property":{
-          "sequence": "",
-          "clickable": ""
+        {
+          "id": "prop4",
+          "propertyName": "boolean",
+          "propertyValue": true,
+          "propertyType": "boolean",
+          "validValues": [
+            "",
+            ""
+          ],
+          "readable": true,
+          "writable": true
         },
-        "testCases":[
-          {
-            "name":"Test case1",
-            "type":"test",
-            "id":"T1",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case2",
-            "type":"test",
-            "id":"T2",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          },
-          {
-            "name":"Test case3",
-            "type":"test",
-            "id":"T3",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            },
-            "Steps":[
-              {
-                "name":"step1",
-                "id":"s1",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              },
-              {
-                "name":"step2",
-                "id":"s2",
-                "type":"step",
-                "property":{
-                  "sequence": "",
-                  "clickable": ""
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+        {
+          "id": "prop5",
+          "propertyName": "Teat Area",
+          "propertyValue": "sampleName",
+          "propertyType": "text:multiline",
+          "validValues": [
+            "",
+            ""
+          ],
+          "readable": true,
+          "writable": true
+        },
+        {
+          "id": "prop5",
+          "propertyName": "Not readable",
+          "propertyValue": "got it",
+          "propertyType": "text",
+          "validValues": [
+            "",
+            ""
+          ],
+          "readable": false,
+          "writable": true
+        },
+        {
+          "id": "prop5",
+          "propertyName": "Not writable",
+          "propertyValue": "got it",
+          "propertyType": "text",
+          "validValues": [
+            "",
+            ""
+          ],
+          "readable": true,
+          "writable": false
+        }
+      ],
+      "categorySection": "Page 1",
+      "testCaseList": [
+        {
+          "id": "testCaseId1",
+          "name": "test case Name",
+          "description": "test case description",
+          "icon": "/img/icons/testCase.png",
+          "altText": "testCase 1"
+        },
+        {
+          "id": "testCaseId2",
+          "name": "test case Name1",
+          "description": "test case description",
+          "icon": "/img/icons/testCase.png",
+          "altText": "testCase 1"
+        },
+        {
+          "id": "testCaseId3",
+          "name": "test case Name2",
+          "description": "test case description",
+          "icon": "/img/icons/testCase.png",
+          "altText": "testCase 1"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "icon": "/img/icons/testScenario.png",
+      "altText": "Senario 1",
+      "name": "Test senario Name 2",
+      "description": "test senario description..",
+      "editableProperties": [
+        {
+          "id": "prop1",
+          "propertyName": "name",
+          "propertyValue": "sampleName",
+          "propertyType": "text",
+          "validValues": [
+            "",
+            ""
+          ],
+          "readable": true,
+          "writable": true
+        }
+      ],
+      "categorySection": "Page 1",
+      "testCaseList": [
+        {
+          "id": "testCaseId1",
+          "name": "test case Name",
+          "description": "test case description",
+          "icon": "/img/icons/testCase.png",
+          "altText": "testCase 1"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "id": "errorId",
+      "errorNumber": "err_100",
+      "errorMsg": "error message",
+      "parameters": [
+        "id1",
+        "id2"
+      ]
+    }
+  ]
+}
