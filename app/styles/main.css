@@ -123,6 +123,8 @@ ul[dnd-list], ul[dnd-list] > li {
 
 .list-group-item-ex-pad{
   padding: 15px 15px;
+  width: 50%;
+  float: left;
 }
 .panel{
   -khtml-user-select: none;
@@ -138,5 +140,11 @@ li.dndPlaceholder {
   min-height: 42px;
   display: block;
   position: relative;
+  width: 50%;
+  float: left;
+  height: 121px;
 
+}
+textarea {
+  resize: none;
 }

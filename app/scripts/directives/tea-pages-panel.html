@@ -7,12 +7,13 @@
       </div>
       <div  ng-init="scenarios.show = !!scenarios.show;" ng-show="!!scenarios.show" class="panel-body">
         <ul class="list-group">
-          <li class="list-group-item" ng-repeat="scenario in scenarios"
+          <li class="list-group-item text-center" ng-repeat="scenario in scenarios"
               dnd-draggable="scenario"
               dnd-type="'scenario'"
               dnd-effect-allowed="copy"
             >
-            {{scenario.name}}
+            <img ng-src="{{scenario.icon}}" alt="{{scenario.altText}}"  style="height: 60px;"/>
+            <p>{{scenario.name}}</p>
           </li>
         </ul>
       </div>
