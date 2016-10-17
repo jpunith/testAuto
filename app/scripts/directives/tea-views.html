@@ -4,7 +4,7 @@
         dnd-list="VC.viewDetail.viewList"
         dnd-allowed-types="VC.viewDetail.allowedTypes"
         dnd-drop="VC.dropCallback(event, index, item, external, type)"
-        style="min-height: 300px;"
+        style="min-height:250px;max-height: 250px;overflow-y: auto"
       >
       <li class="list-group-item list-group-item-ex-pad text-center" ng-repeat="scenario in VC.viewDetail.viewList"
           dnd-type="senario.type"
@@ -41,7 +41,7 @@
             dnd-list="VC.selectedSenario.testCases"
             dnd-allowed-types="['test']"
             dnd-drop="VC.dropCallback(event, index, item, external, type)"
-            style="min-height: 200px;"
+            style="min-height: 200px;max-height: 300px;overflow-y: auto"
           >
           <li class="list-group-item list-group-item-ex-pad text-center" ng-repeat="testCase in VC.selectedSenario.testCaseList"
               ng-click="VC.clickOnElement(testcase.id,testCase.property)"

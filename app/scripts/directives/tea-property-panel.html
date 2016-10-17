@@ -3,6 +3,13 @@
     <!---->
   <!--</div>-->
 <!--</div>-->
+<style>
+    .scrollit
+    {
+        overflow-y:scroll;
+        height:300px;
+    }
+</style>
 <table class="table table-bordered">
   <thead>
     <tr>
@@ -10,22 +17,48 @@
     </tr>
   </thead>
   <tbody>
-    <tr ng-if="property.readable" ng-repeat="property in PRC.propertyDetails.properties">
+  <tr>
+      <td>
+          <div class="scrollit">
+              <table class="table table-bordered">
+                  <tr ng-if="property.readable" ng-repeat="property in PRC.propertyDetails.properties">
+                      <td>{{property.propertyName}}</td>
+                      <!--<td><input class="form-control" type="text" ng-model="property.propertyValue"/></td>-->
+                      <td>
+                          <tea-input
+                                  tea-input-type="{{property.propertyType}}"
+                                  tea-input-list="property.validValues"
+                                  ng-model="property.propertyValue"
+                                  ng-disabled="!property.writable"
+                                  />
+                      </td>
+
+                  </tr>
+              </table>
+          </div>
+      </td>
+  </tr>
+    <!--<tr ng-if="property.readable" ng-repeat="property in PRC.propertyDetails.properties">
       <td>{{property.propertyName}}</td>
       <!--<td><input class="form-control" type="text" ng-model="property.propertyValue"/></td>-->
-      <td><tea-input
+      <!--<td>
+        <tea-input
         tea-input-type="{{property.propertyType}}"
         tea-input-list="property.validValues"
         ng-model="property.propertyValue"
         ng-disabled="!property.writable"
-        /></td>
-
-    </tr>
-    <tr>
-      <td colspan="2">
-        <button class="btn btn-info">Apply</button>
-        <button class="btn btn-info">Revert</button>
+        />
       </td>
-    </tr>
+
+    </tr>-->
+
+    <tfoot>
+    <tr>
+  <td colspan="2">
+    <button class="btn btn-info">Apply</button>
+    <button class="btn btn-info">Revert</button>
+  </td>
+</tr>
+  </tfoot>
   </tbody>
 </table>

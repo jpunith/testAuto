@@ -1,118 +1,24 @@
 [
-  {
-    "name":"Scenario1",
-    "type":"scenario",
-    "property":{
-      "sequence": "",
-      "clickable": ""
-    },
-    "testCases":[
       {
-        "name":"Test case1",
-        "type":"test",
-        "":"T1",
-        "property":{
-          "sequence": "",
-          "clickable": ""
-        },
-        "Steps":[
-          {
-            "name":"step1",
-            "type":"step",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            }
-          },
-          {
-            "name":"step2",
-            "type":"step",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            }
-          }
-        ]
+        "id": "testCaseId1",
+        "name": "test case Name",
+        "description": "test case description",
+        "icon": "/img/icons/testCase.png",
+        "altText": "testCase 1"
       },
       {
-        "name":"Test case2",
-        "type":"test",
-        "Steps":[
-          {
-            "name":"step1",
-            "type":"step",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            }
-          },
-          {
-            "name":"step2",
-            "type":"step",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            }
-          }
-        ]
+        "id": "testCaseId2",
+        "name": "test case Name1",
+        "description": "test case description",
+        "icon": "/img/icons/testCase.png",
+        "altText": "testCase 1"
       },
       {
-        "name":"Test case3",
-        "type":"test",
-        "":"T3",
-        "Steps":[
-          {
-            "name":"step1",
-            "type":"step",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            }
-          },
-          {
-            "name":"step2",
-            "type":"step",
-            "property":{
-              "sequence": "",
-              "clickable": ""
-            }
-          }
-        ]
+        "id": "testCaseId3",
+        "name": "test case Name2",
+        "description": "test case description",
+        "icon": "/img/icons/testCase.png",
+        "altText": "testCase 1"
       }
-    ]
-  },
-  {
-    "name":"Test case1",
-    "type":"test",
-    "property":{
-      "sequence": "",
-      "clickable": ""
-    },
-    "Steps":[
-      {
-        "name":"step1",
-        "type":"step",
-        "property":{
-          "sequence": "",
-          "clickable": ""
-        }
-      },
-      {
-        "name":"step2",
-        "type":"step",
-        "property":{
-          "sequence": "",
-          "clickable": ""
-        }
-      }
-    ]
-  },
-  {
-    "name":"step1",
-    "type":"step",
-    "property":{
-      "sequence": "",
-      "clickable": ""
-    }
-  }
+
 ]
